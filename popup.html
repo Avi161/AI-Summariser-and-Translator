@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Summarizer with Translation Options</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Summarizer & Translator</h1>
+    <textarea id="inputText" placeholder="Enter text to summarize or translate"></textarea>
+    <div class="translation-container">
+      <label for="languageSelect">Language:</label>
+      <select id="languageSelect">
+        <option value="" selected>None</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+        <option value="de">German</option>
+        <option value="zh">Chinese</option>
+        <option value="hi">Hindi</option>
+      </select>
+    </div>
+    <div class="choice-container">
+      <label>
+        <input type="radio" name="action" value="summary" checked>
+        Summarize only
+      </label>
+      <label>
+        <input type="radio" name="action" value="translate">
+        Translate only
+      </label>
+      <label>
+        <input type="radio" name="action" value="summaryAndTranslate">
+        Summarize and translate
+      </label>
+    </div>
+    <button id="processBtn">Process</button>
+    <textarea id="outputText" placeholder="Result will appear here" readonly></textarea>
+  </div>
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

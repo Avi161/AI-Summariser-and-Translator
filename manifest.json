@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "AI Text Summarizer & Translator",
+    "version": "1.0.0",
+    "description": "Summarize text using AI API.",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "contextMenus",
+        "storage",
+        "downloads"
+    ],
+    "host_permissions": [
+        "https://api.openai.com/v1/completions"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["popup.js"],
+            "type": "module"
+        }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    }
+  }
