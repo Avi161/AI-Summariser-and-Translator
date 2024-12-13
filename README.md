@@ -71,8 +71,10 @@ Backend Integration: To secure API keys and manage usage efficiently.
 File Upload Support: Allow users to upload files for bulk processing.
 Expanded Language Options: Include more languages based on user demand.
 Mobile Compatibility: Optimize the app for mobile devices and smaller screens.
-Screenshots
 Main Interface
+
+![image](https://github.com/user-attachments/assets/4733526f-f477-4973-bf56-c7ffa4185ebd)
+
 
 A user-friendly interface with input options for summarization and translation.
 
