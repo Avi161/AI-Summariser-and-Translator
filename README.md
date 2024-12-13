@@ -9,27 +9,23 @@ Translate the text into their desired language.
 Generate a summary and translate it into a preferred language.
 This tool is designed for students, professionals, and content creators, helping them quickly process information while overcoming language barriers.
 
-Features
+##Features
 1. Text Summarization
 Extracts the key points from lengthy text, providing a concise and coherent summary.
 
-2. Translation
-Translates the original text or the generated summary into supported languages, including:
+##2. Translation
+Translates the original text or the generated summary into supported languages.
 
-Spanish
-French
-German
-Chinese
-Hindi
-
-3. Combined Summarization and Translation
+##3. Combined Summarization and Translation
 Allows users to generate summaries directly in their preferred language, saving time and effort.
 
-4. User Options
+##4. User Options
 Summarize only: Generates a summary of the input text.
 Translate only: Translates the input text into a selected language.
 Summarize and Translate: Summarizes the text first and then translates the summary.
-How It Works
+
+
+#How It Works
 User Input: Users enter text, select a language, and choose an action (summarize, translate, or both).
 API Integration: The app sends a request to OpenAI's GPT-4 API with dynamically crafted prompts.
 Processing: The API processes the input and generates a response (summary, translation, or both).
@@ -38,21 +34,11 @@ Tech Stack
 Frontend: HTML, CSS, JavaScript
 API: OpenAI's GPT-4 API for natural language processing
 Design: Responsive and user-friendly interface with polished styling
-How to Run the Project
-Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/Avi161/AI-Summariser-and-Translator.git
-cd AI-Summariser-and-Translator
-Set Up OpenAI API:
 
-Obtain your API key from the OpenAI API Keys page.
-Replace YOUR_API_KEY in script.js with your actual API key.
-Open the Project:
 
-Simply open index.html in your browser to use the application.
-Use Cases
+##Use Cases
+
 Education: Summarize research papers or translate them for better understanding.
 Business: Translate documents and generate concise summaries for team discussions.
 Content Creation: Generate summaries for blog posts or translate them for global audiences.
@@ -62,6 +48,7 @@ Challenges:
 Securing the API key in a frontend-only implementation.
 Crafting effective prompts for summarization and translation.
 Designing an intuitive and responsive user interface.
+
 Solutions:
 A backend can be integrated in future iterations to secure the API key.
 Dynamic prompt generation ensures accurate and context-aware outputs.
