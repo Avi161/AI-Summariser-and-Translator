@@ -9,23 +9,24 @@ Translate the text into their desired language.
 Generate a summary and translate it into a preferred language.
 This tool is designed for students, professionals, and content creators, helping them quickly process information while overcoming language barriers.
 
-##Features
+## Features
 1. Text Summarization
 Extracts the key points from lengthy text, providing a concise and coherent summary.
 
-##2. Translation
+## 2. Translation
 Translates the original text or the generated summary into supported languages.
 
-##3. Combined Summarization and Translation
+## 3. Combined Summarization and Translation
 Allows users to generate summaries directly in their preferred language, saving time and effort.
 
-##4. User Options
+## 4. User Options
 Summarize only: Generates a summary of the input text.
 Translate only: Translates the input text into a selected language.
 Summarize and Translate: Summarizes the text first and then translates the summary.
 
 
-#How It Works
+# How It Works
+
 User Input: Users enter text, select a language, and choose an action (summarize, translate, or both).
 API Integration: The app sends a request to OpenAI's GPT-4 API with dynamically crafted prompts.
 Processing: The API processes the input and generates a response (summary, translation, or both).
@@ -37,7 +38,7 @@ Design: Responsive and user-friendly interface with polished styling
 
 
 
-##Use Cases
+## Use Cases
 
 Education: Summarize research papers or translate them for better understanding.
 Business: Translate documents and generate concise summaries for team discussions.
